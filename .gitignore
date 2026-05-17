@@ -216,3 +216,61 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ============================================
+# 算法竞赛专用补充规则
+# ============================================
+
+# --- 数据集（严禁上传）---
+*.csv
+*.tsv
+*.txt          # 如果txt是数据文件而非代码
+*.data
+*.db
+*.sqlite
+*.parquet
+*.hdf5
+*.h5
+*.jsonl        # 大规模JSON Lines数据
+*.ndjson
+
+# 数据目录（保留目录结构，忽略内容）
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# --- 模型权重与检查点 ---
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+models/checkpoints/*
+models/pretrained/*
+!models/checkpoints/.gitkeep
+!models/pretrained/.gitkeep
+
+# --- 实验日志与输出 ---
+*.log
+logs/
+wandb/
+output/
+results/
+submissions/
+predictions/
+*.out
+
+# --- 配置文件中的敏感信息 ---
+config/secrets.yaml
+config/local.yaml
+.env
+*.key
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
