@@ -1,2 +1,13 @@
 # tencent-ad-algo-2027
-广告算法比赛备赛仓库 | 推荐系统 | CTR预估 | 全栈学习记录
+Used for competition preparation
+
+## 当前阶段
+- [x] Python基础构建（Week 1-2）
+- [ ] NumPy + Pandas数据处理（Week 3-4）
+- [ ] ...
+
+## 技术栈
+Python 3.10 / PyTorch / Pandas / NumPy
+
+## 笔记
+...
