@@ -1,4 +1,4 @@
-# tencent-ad-algo-2027
+# Just an undergurate student's study log
 Used for competition preparation
 
 ## 当前阶段
