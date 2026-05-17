@@ -27,8 +27,11 @@ models/         # 模型文件（Git忽略）
 
 └── pretrained/ # 预训练权重
 
+
 week1/          # Python基础构建
+
 week2/          # 面向对象与进阶特性
+
 ...
 
 ## 学习记录
